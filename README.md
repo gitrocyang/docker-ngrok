@@ -17,7 +17,3 @@ docker run -idt --name ngrok-server \
 -v /data/ngrok:/myfiles \
 -e DOMAIN='tunnel.hteen.cn' hteen/ngrok /bin/sh /server.sh
 ```
-
-```linux
-docker run -idt --name ngrok-server -v /data/ngrok:/myfiles -e DOMAIN='t.maple-soft.com' -p 81:80 -p 444:443  hteen/ngrok /bin/sh /server.sh
-```
